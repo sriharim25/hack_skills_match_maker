@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  ph_no: MyString
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString
+
+two:
+  name: MyString
+  ph_no: MyString
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString

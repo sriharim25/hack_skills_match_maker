@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Ph no:</b>
+  <%= @user.ph_no %>
+</p>
+
+<p>
+  <b>Skill1:</b>
+  <%= @user.skill1 %>
+</p>
+
+<p>
+  <b>Skill2:</b>
+  <%= @user.skill2 %>
+</p>
+
+<p>
+  <b>Skill3:</b>
+  <%= @user.skill3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
